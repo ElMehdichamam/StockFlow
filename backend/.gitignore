@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+
+# Environment and secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+*.log
+*.tsbuildinfo
+
+# OS noise
+.DS_Store
+Thumbs.db
